@@ -6,11 +6,23 @@
   "db_password": "admin1234",
   "db_name": "cleaning_service",
 
-  "access_key": "AccessToKenSecretKeysdfsdfsdf",
-  "refresh_key": "RefreshToKenSecretKeysdfsdfsdf",
+  "access_key": "AccesTokenSecretKey",
+  "refresh_key": "RefreshTokenSecretKey",
   "access_time": "15h",
-  "refresh_time": "15d",
+  "refresh_time": "30d",
   "cookie_refresh_time": 1296000000,
+
+  "access_key_admin": "AccesTokenSecretKeyE",
+  "refresh_key_admin": "RefreshTokenSecretKeyE",
+  "access_time_admin": "15h",
+  "refresh_time_admin": "30d",
+  "cookie_refresh_time_admin": 1286000000,
+
+  "access_key_client": "AccesTokenSecretKeyC",
+  "refresh_key_client": "RefreshTokenSecretKeyC",
+  "access_time_client": "15h",
+  "refresh_time_client": "30d",
+  "cookie_refresh_time_client": 1276000000,
 
   "smtp_password": "jpopsajcrycoexmu",
   "smtp_host": "smtp.gmail.com",

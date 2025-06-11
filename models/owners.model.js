@@ -33,6 +33,7 @@ const Owners = sequelize.define(
     },
     is_active: {
       type: DataTypes.BOOLEAN,
+      defaultValue: false,
     },
   },
   {

@@ -1,8 +1,6 @@
 const sequelize = require("../config/db");
 const { DataTypes } = require("sequelize");
 
-
-
 const Clients = sequelize.define(
   "clients",
   {
@@ -29,14 +27,16 @@ const Clients = sequelize.define(
     activation_link: {
       type: DataTypes.STRING,
     },
+    is_active: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false,
+    },
   },
   {
     freezeTableName: true,
     timestamps: false,
   }
 );
-
-
 
 module.exports = Clients;
 
@@ -45,8 +45,6 @@ const Assignments = require("../models/assignments.model");
 const Order = require("../models/order.model");
 const Cancel = require("../models/cancel.model");
 const Reviews = require("../models/reviews.model");
-const Service = require("./service.model");
-
 
 Clients.hasMany(Payments);
 Payments.belongsTo(Clients);

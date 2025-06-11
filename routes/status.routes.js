@@ -3,11 +3,13 @@ const {
   findAll,
   updateById,
   removeById,
+  findOne,
 } = require("../controllers/status.controller");
 
 const router = require("express").Router();
 
 router.post("/", add);
+router.get("/", findOne);
 router.get("/", findAll);
 router.patch("/:id", updateById);
 router.delete("/:id", removeById);

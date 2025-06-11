@@ -9,9 +9,8 @@ exports.paymentsValidation = (body) => {
     payment_status: Joi.string()
       .valid("pending", "completed", "rejected")
       .required(),
-    bookingId: Joi.number().integer().required(),
+    orderId: Joi.number().integer().required(),
     clientId: Joi.number().integer().required(),
-    adminId: Joi.number().integer().required(),
     amount: Joi.number().positive().required(),
   });
 

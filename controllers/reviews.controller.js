@@ -3,9 +3,12 @@ const Review = require("../models/reviews.model");
 const Clients = require("../models/clients.model");
 const Employee = require("../models/employee.model");
 
+const { reviewsValidation } = require("../validations/reviews.validation");
+
+
 const add = async (req, res) => {
   try {
-    const { error, value } = clientsValidation(req.body);
+    const { error, value } = reviewsValidation(req.body);
     if (error) {
       return sendErrorResponse(error, res, 400);
     }

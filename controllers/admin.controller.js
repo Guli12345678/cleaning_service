@@ -1,6 +1,5 @@
 const { sendErrorResponse } = require("../helpers/send_error_res");
 const adminModel = require("../models/admin.models");
-const { adminValidation } = require("../validations/admin.validation");
 const bcrypt = require("bcrypt");
 const uuid = require("uuid");
 const config = require("config");

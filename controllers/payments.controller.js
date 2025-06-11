@@ -1,25 +1,21 @@
 const { sendErrorResponse } = require("../helpers/send_error_res");
-const Admins = require("../models/admin.models");
+const { paymentsValidation } = require("../validations/payments.validation");
 const Bookings = require("../models/order.model");
 const Clients = require("../models/clients.model");
 const Payment = require("../models/payments.model");
 
 const add = async (req, res) => {
   try {
-    const { error, value } = clientsValidation(req.body);
+    const { error, value } = paymentsValidation(req.body);
     if (error) {
       return sendErrorResponse(error, res, 400);
     }
     const client = Clients.findByPk(value.clientId);
     const booking = Bookings.findByPk(value.bookingId);
-    const admin = Admins.findByPk(value.adminId);
     if (!client) {
       sendErrorResponse({ message: "Bunday client mavjud emas" }, res, 400);
     }
     if (!booking) {
-      sendErrorResponse({ message: "Bunday client mavjud emas" }, res, 400);
-    }
-    if (!admin) {
       sendErrorResponse({ message: "Bunday client mavjud emas" }, res, 400);
     }
     const newpayment = await Payment.create({
@@ -39,9 +35,6 @@ const findAll = async (req, res) => {
         },
         {
           model: Clients,
-        },
-        {
-          model: Admins,
         },
       ],
     });

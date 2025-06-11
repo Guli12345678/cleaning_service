@@ -6,6 +6,7 @@ exports.adminsValidation = (body) => {
     phone: Joi.string().min(10).max(15).required(),
     email: Joi.string().email().required(),
     password: Joi.string().max(8),
+    is_active: Joi.string().default(true),
     activation_link: Joi.string(),
   });
 

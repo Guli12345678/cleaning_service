@@ -36,7 +36,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newClient = await Client.findById(id);
+    const newClient = await Client.findByPk(id);
     res.status(200).send(newClient);
   } catch (error) {
     sendErrorResponse(error, res, 400);

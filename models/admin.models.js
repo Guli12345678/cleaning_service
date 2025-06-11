@@ -13,11 +13,9 @@ const Admins = sequelize.define(
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
     phone: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
     email: {
       type: DataTypes.STRING,
@@ -26,7 +24,6 @@ const Admins = sequelize.define(
     },
     password: {
       type: DataTypes.STRING,
-      allowNull: false,
     },
     activation_link: {
       type: DataTypes.STRING,

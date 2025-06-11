@@ -1,7 +1,6 @@
 const { sendErrorResponse } = require("../helpers/send_error_res");
 const Service = require("../models/service.model");
 const Owners = require("../models/owners.model");
-const Clients = require("../models/clients.model");
 const { servicesValidation } = require("../validations/services.validation");
 
 const add = async (req, res) => {
