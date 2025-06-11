@@ -1,0 +1,20 @@
+{
+  "port": 8000,
+  "db_host": "localhost",
+  "db_username": "postgres",
+  "db_port": 5432,
+  "db_password": "admin1234",
+  "db_name": "cleaning_service",
+
+  "access_key": "AccessToKenSecretKeysdfsdfsdf",
+  "refresh_key": "RefreshToKenSecretKeysdfsdfsdf",
+  "access_time": "15h",
+  "refresh_time": "15d",
+  "cookie_refresh_time": 1296000000,
+
+  "smtp_password": "jpopsajcrycoexmu",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": "587",
+  "smtp_user": "gulsanammamadieva083@gmail.com",
+  "api_url": "http://localhost:8000"
+}
