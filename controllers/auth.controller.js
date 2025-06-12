@@ -277,7 +277,7 @@ const loginOwner = async (req, res) => {
   }
 };
 
-const logout = async (req, res) => {
+const logoutClient = async (req, res) => {
   try {
     const { refreshToken } = req.cookies;
 
@@ -291,6 +291,64 @@ const logout = async (req, res) => {
     const decodedToken = await jwtService.verifyRefreshToken(refreshToken);
 
     const user = await clientModel.update(
+      { hashedToken: null },
+      {
+        where: { id: decodedToken.id },
+        returning: true,
+      }
+    );
+    if (!user) {
+      return res.status(400).send({ message: "Token notogri" });
+    }
+    res.clearCookie("refreshToken");
+    res.send({ message: "User logged out" });
+  } catch (error) {
+    sendErrorResponse(error, res, 400);
+  }
+};
+const logoutAdmin = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return sendErrorResponse(
+        { message: "Cookieda refreshToken topilmadi" },
+        res,
+        400
+      );
+    }
+    const decodedToken = await jwtService.verifyRefreshToken(refreshToken);
+
+    const user = await adminModel.update(
+      { hashedToken: null },
+      {
+        where: { id: decodedToken.id },
+        returning: true,
+      }
+    );
+    if (!user) {
+      return res.status(400).send({ message: "Token notogri" });
+    }
+    res.clearCookie("refreshToken");
+    res.send({ message: "User logged out" });
+  } catch (error) {
+    sendErrorResponse(error, res, 400);
+  }
+};
+const logoutOwner = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return sendErrorResponse(
+        { message: "Cookieda refreshToken topilmadi" },
+        res,
+        400
+      );
+    }
+    const decodedToken = await jwtService.verifyRefreshToken(refreshToken);
+
+    const user = await Owners.update(
       { hashedToken: null },
       {
         where: { id: decodedToken.id },
@@ -492,7 +550,9 @@ module.exports = {
   registerAdmin,
   loginAdmin,
   loginClient,
-  logout,
+  logoutClient,
+  logoutAdmin,
+  logoutOwner,
   refreshToken,
   activateAdmins,
   activateClients,

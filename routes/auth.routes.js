@@ -2,7 +2,9 @@ const {
   registerClient,
   registerOwner,
   registerAdmin,
-  logout,
+  logoutClient,
+  logoutAdmin,
+  logoutOwner,
   refreshToken,
   activateClients,
   activateAdmins,
@@ -20,7 +22,9 @@ router.post("/registerClient", registerClient);
 router.post("/loginAdmin", loginAdmin);
 router.post("/loginClient", loginClient);
 router.post("/loginOwner", loginOwner);
-router.post("/logout", logout);
+router.post("/logoutClient", logoutClient);
+router.post("/logoutAdmin", loginAdmin);
+router.post("/logoutOwner", loginOwner);
 router.get("/clients/activate/:link", activateClients);
 router.get("/admin/activate/:link", activateAdmins);
 router.get("/owner/activate/:link", activateOwners);
