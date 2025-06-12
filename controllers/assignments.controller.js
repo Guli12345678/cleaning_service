@@ -60,7 +60,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newassignment = await assignmentModel.findById(id);
+    const newassignment = await assignmentModel.findByPk(id);
     res.status(200).send(newadmin);
   } catch (error) {
     sendErrorResponse(error, res, 400);

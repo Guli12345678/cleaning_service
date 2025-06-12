@@ -27,7 +27,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newstatus = await Status.findById(id);
+    const newstatus = await Status.findByPk(id);
     res.status(200).send(newstatus);
   } catch (error) {
     sendErrorResponse(error, res, 400);

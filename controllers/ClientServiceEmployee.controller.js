@@ -50,7 +50,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newClientServiceEmployee = await ClientServiceEmployee.findById(id);
+    const newClientServiceEmployee = await ClientServiceEmployee.findByPk(id);
     res.status(200).send(newClientServiceEmployee);
   } catch (error) {
     sendErrorResponse(error, res, 400);

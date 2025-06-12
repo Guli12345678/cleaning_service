@@ -47,7 +47,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newCancel = await Cancel.findById(id);
+    const newCancel = await Cancel.findByPk(id);
     res.status(200).send(newadmin);
   } catch (error) {
     sendErrorResponse(error, res, 400);

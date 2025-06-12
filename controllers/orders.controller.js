@@ -54,7 +54,7 @@ const findAll = async (req, res) => {
 const findOne = async (req, res) => {
   try {
     const { id } = req.params;
-    const newOrder = await Booking.findById(id);
+    const newOrder = await Booking.findByPk(id);
     res.status(200).send(newOrder);
   } catch (error) {
     sendErrorResponse(error, res, 400);
