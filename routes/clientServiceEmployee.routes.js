@@ -10,7 +10,7 @@ const router = require("express").Router();
 
 router.post("/", add);
 router.get("/", findAll);
-router.get("/", findOne);
+router.get("/:id", findOne);
 router.patch("/:id", updateById);
 router.delete("/:id", removeById);
 
