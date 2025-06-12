@@ -28,5 +28,5 @@
   "smtp_host": "smtp.gmail.com",
   "smtp_port": "587",
   "smtp_user": "gulsanammamadieva083@gmail.com",
-  "api_url": "http://localhost:8000"
+  "api_url": "http://185.191.141.131:8000"
 }
