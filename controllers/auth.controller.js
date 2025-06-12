@@ -365,7 +365,7 @@ const logoutOwner = async (req, res) => {
   }
 };
 
-const refreshToken = async (req, res) => {
+const refreshClientToken = async (req, res) => {
   try {
     const { refreshToken } = req.cookies;
 
@@ -397,7 +397,85 @@ const refreshToken = async (req, res) => {
     });
     res.status(201).send({
       message: "tokenlar yangilandi",
+      id: clientModel.id,
+      accessToken: tokens.accessToken,
+    });
+  } catch (error) {
+    sendErrorResponse(error, res, 400);
+  }
+};
+const refreshAdminToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "cookieda refresh token topilmadi" });
+    }
+    await jwtService.verifyRefreshToken(refreshToken);
+
+    const admins = await adminModel.findOne({ refresh_token: refreshToken });
+    if (!admins) {
+      return res
+        .status(401)
+        .send({ message: "bazada refresh token topilmadi" });
+    }
+    const payload = {
+      id: adminModel._id,
+      email: adminModel.email,
+    };
+
+    const tokens = jwtService.generateTokens(payload);
+    admins.refresh_token = tokens.refreshToken;
+    await admins.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
+    });
+    res.status(201).send({
+      message: "tokenlar yangilandi",
       id: adminModel.id,
+      accessToken: tokens.accessToken,
+    });
+  } catch (error) {
+    sendErrorResponse(error, res, 400);
+  }
+};
+const refreshOwnerToken = async (req, res) => {
+  try {
+    const { refreshToken } = req.cookies;
+
+    if (!refreshToken) {
+      return res
+        .status(400)
+        .send({ message: "cookieda refresh token topilmadi" });
+    }
+    await jwtService.verifyRefreshToken(refreshToken);
+
+    const admins = await Owners.findOne({ refresh_token: refreshToken });
+    if (!admins) {
+      return res
+        .status(401)
+        .send({ message: "bazada refresh token topilmadi" });
+    }
+    const payload = {
+      id: Owners._id,
+      email: Owners.email,
+    };
+
+    const tokens = jwtService.generateTokens(payload);
+    admins.refresh_token = tokens.refreshToken;
+    await admins.save();
+
+    res.cookie("refreshToken", tokens.refreshToken, {
+      httpOnly: true,
+      maxAge: config.get("cookie_refresh_time"),
+    });
+    res.status(201).send({
+      message: "tokenlar yangilandi",
+      id: Owners.id,
       accessToken: tokens.accessToken,
     });
   } catch (error) {
@@ -553,7 +631,9 @@ module.exports = {
   logoutClient,
   logoutAdmin,
   logoutOwner,
-  refreshToken,
+  refreshClientToken,
+  refreshAdminToken,
+  refreshOwnerToken,
   activateAdmins,
   activateClients,
   activateOwners,

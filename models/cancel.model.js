@@ -18,6 +18,9 @@ const Cancel = sequelize.define(
     refund: {
       type: DataTypes.BOOLEAN,
     },
+    created_at: {
+      type: DataTypes.DATE,
+    },
   },
   {
     freezeTableName: true,

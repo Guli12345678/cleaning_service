@@ -12,8 +12,8 @@ const authGuard = require("../middleware/guards/auth.guard");
 const router = require("express").Router();
 
 router.post("/", add);
-router.patch("/:id", updateById);
-router.get("/", findAll);
+router.patch("/:id", adminJwtGuard, adminSelfGuard, updateById);
+router.get("/", authGuard, findAll);
 router.get("/:id", adminJwtGuard, adminSelfGuard, findOne);
 router.delete("/:id", removeById);
 

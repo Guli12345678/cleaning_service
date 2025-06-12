@@ -21,16 +21,14 @@ module.exports = (modelName) => {
         return sendErrorResponse({ message: "Resource not found" }, res, 404);
       }
 
-      // Check if user is admin (admins can access any resource)
       if (role === "admin") {
         return next();
       }
 
-      // Check if user is the creator of the resource
       if (resource.user_id !== userId) {
         return sendErrorResponse(
           {
-            message: "Access denied. You are not the creator of this resource.",
+            message: "Access denied. You are not the creator.",
           },
           res,
           403

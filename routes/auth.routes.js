@@ -5,7 +5,9 @@ const {
   logoutClient,
   logoutAdmin,
   logoutOwner,
-  refreshToken,
+  refreshClientToken,
+  refreshAdminToken,
+  refreshOwnerToken,
   activateClients,
   activateAdmins,
   activateOwners,
@@ -23,11 +25,13 @@ router.post("/loginAdmin", loginAdmin);
 router.post("/loginClient", loginClient);
 router.post("/loginOwner", loginOwner);
 router.post("/logoutClient", logoutClient);
-router.post("/logoutAdmin", loginAdmin);
-router.post("/logoutOwner", loginOwner);
+router.post("/logoutAdmin", logoutAdmin);
+router.post("/logoutOwner", logoutOwner);
 router.get("/clients/activate/:link", activateClients);
 router.get("/admin/activate/:link", activateAdmins);
 router.get("/owner/activate/:link", activateOwners);
-router.get("/refresh", refreshToken);
+router.get("/refreshClient", refreshClientToken);
+router.get("/refreshAdmin", refreshAdminToken);
+router.get("/refreshOwner", refreshOwnerToken);
 
 module.exports = router;

@@ -18,6 +18,9 @@ const Order = sequelize.define(
     total_price: {
       type: DataTypes.DECIMAL,
     },
+    created_at: {
+      type: DataTypes.DATE,
+    },
   },
   {
     freezeTableName: true,

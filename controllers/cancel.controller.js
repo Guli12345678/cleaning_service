@@ -1,11 +1,12 @@
 const { sendErrorResponse } = require("../helpers/send_error_res");
 const Cancel = require("../models/cancel.model");
+const { cancelValidation } = require("../validations/cancel.validation");
 const Clients = require("../models/clients.model");
 const Service = require("../models/service.model");
 
 const add = async (req, res) => {
   try {
-    const { error, value } = clientsValidation(req.body);
+    const { error, value } = cancelValidation(req.body);
     if (error) {
       return sendErrorResponse(error, res, 400);
     }

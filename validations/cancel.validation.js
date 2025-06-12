@@ -7,6 +7,7 @@ exports.cancelValidation = (body) => {
     cancel_date: Joi.date().iso().required(),
     reason: Joi.string().required(),
     refund: Joi.string(),
+    created_at: Joi.date(),
   });
 
   return schema.validate(body, { abortEarly: false });

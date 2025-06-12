@@ -1,13 +1,20 @@
-const { sequelize } = require("../config/db");
+const sequelize = require("../config/db");
 
 const first = async (req, res) => {
   try {
-    const { startDate, endDate } = req.query;
-    const [result] = await sequelize.query(
+    const { startDate, endDate } = req.body;
+
+    if (!startDate || !endDate) {
+      return res
+        .status(400)
+        .send({ error: "Both startDate and endDate must be provided" });
+    }
+
+    const result = await sequelize.query(
       `
       SELECT s.name, COUNT(*) as service_count
-      FROM services s
-      JOIN orders o ON s.id = o.service_id
+      FROM service s
+      JOIN "order" o ON s.id=o."serviceId"
       WHERE o.created_at BETWEEN :startDate AND :endDate
       GROUP BY s.name
       ORDER BY service_count DESC;
@@ -17,6 +24,7 @@ const first = async (req, res) => {
         type: sequelize.QueryTypes.SELECT,
       }
     );
+
     res.send({ data: result });
   } catch (error) {
     res.status(500).send({ error: error.message });
@@ -25,12 +33,12 @@ const first = async (req, res) => {
 
 const second = async (req, res) => {
   try {
-    const { startDate, endDate } = req.query;
+    const { startDate, endDate } = req.body;
     const [result] = await sequelize.query(
       `
-      SELECT DISTINCT c.first_name, c.last_name, c.phone_number
+      SELECT DISTINCT c.full_name,c.phone
       FROM clients c
-      JOIN orders o ON c.id = o.client_id
+      JOIN "order" o ON c.id = o."clientId"
       WHERE o.created_at BETWEEN :startDate AND :endDate;
       `,
       {
@@ -46,13 +54,15 @@ const second = async (req, res) => {
 
 const third = async (req, res) => {
   try {
-    const { startDate, endDate } = req.query;
+    const { startDate, endDate } = req.body;
     const [result] = await sequelize.query(
       `
-      SELECT DISTINCT c.first_name, c.last_name, c.phone_number
+      SELECT DISTINCT c.full_name, c.phone
       FROM clients c
-      JOIN cancels cn ON c.id = cn.client_id
-      WHERE cn.created_at BETWEEN :startDate AND :endDate;
+      JOIN status s ON s.id = c.id
+      JOIN "order" o ON s.id = o."statusId"
+      WHERE o.created_at BETWEEN :startDate AND :endDate
+      AND o."statusId" = 4;
       `,
       {
         replacements: { startDate, endDate },
@@ -67,15 +77,15 @@ const third = async (req, res) => {
 
 const fourth = async (req, res) => {
   try {
-    const { serviceName } = req.query;
+    const { serviceName } = req.body;
     const [result] = await sequelize.query(
       `
-      SELECT o.first_name, o.last_name, COUNT(*) as service_count
+      SELECT o.name, o.phone, COUNT(*) as service_count
       FROM owners o
-      JOIN orders ord ON o.id = ord.owner_id
-      JOIN services s ON s.id = ord.service_id
+      JOIN "order" ord ON o.id = ord.id
+      JOIN service s ON s.id = ord."serviceId"
       WHERE s.name = :serviceName
-      GROUP BY o.id, o.first_name, o.last_name
+      GROUP BY o.id, o.name, o.phone
       ORDER BY service_count DESC;
       `,
       {
@@ -91,16 +101,16 @@ const fourth = async (req, res) => {
 
 const fifth = async (req, res) => {
   try {
-    const { clientId } = req.params;
+    const { clientId } = req.body;
     const [result] = await sequelize.query(
       `
-      SELECT p.amount, p.payment_type, s.name as service_name, 
-             o.first_name as owner_name, o.phone_number as owner_phone
+      SELECT p.amount, p.payment_method, s.name as service_name, 
+             o.name as owner_name, o.phone as owner_phone
       FROM payments p
-      JOIN orders ord ON p.order_id = ord.id
-      JOIN services s ON ord.service_id = s.id
-      JOIN owners o ON ord.owner_id = o.id
-      WHERE ord.client_id = :clientId;
+      JOIN "order" ord ON p."orderId" = ord.id
+      JOIN service s ON ord."serviceId" = s.id
+      JOIN owners o ON ord.id = o.id
+      WHERE ord."clientId" = :clientId;
       `,
       {
         replacements: { clientId },

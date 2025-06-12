@@ -8,6 +8,7 @@ const {
 const authGuard = require("../middleware/guards/auth.guard");
 const ownerJwtGuard = require("../middleware/guards/owner-jwt.guard");
 const ownerSelfGuard = require("../middleware/guards/owner-self.guard");
+const creatorGuard = require("../middleware/guards/creator.guard");
 
 const router = require("express").Router();
 

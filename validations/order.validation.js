@@ -7,6 +7,7 @@ exports.ordersValidation = (body) => {
     statusId: Joi.number().integer().required(),
     clientId: Joi.number().integer().required(),
     serviceId: Joi.number().integer().required(),
+    created_at: Joi.date(),
   });
 
   return schema.validate(body, { abortEarly: false });

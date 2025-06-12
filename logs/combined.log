@@ -1,53 +1,142 @@
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:05:31","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:05:48","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:06:49","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/activate/004d78ea-6f02-4fd1-81d6-63c86779f97b","timestamp":"2025-06-11 22:06:59","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/004d78ea-6f02-4fd1-81d6-63c86779f97b","timestamp":"2025-06-11 22:08:31","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /favicon.ico","timestamp":"2025-06-11 22:08:32","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/004d78ea-6f02-4fd1-81d6-63c86779f97b","timestamp":"2025-06-11 22:09:15","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:10:14","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/6d12a3c8-0515-4bbf-9604-508100b1c819","timestamp":"2025-06-11 22:10:45","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:10:56","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/c761f3b5-5ee0-4b37-b233-c734fe657137","timestamp":"2025-06-11 22:12:06","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerAdmin/","timestamp":"2025-06-11 22:12:19","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerAdmin/","timestamp":"2025-06-11 22:15:30","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerAdmin/","timestamp":"2025-06-11 22:15:46","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/af216fde-222f-472d-9e03-064f7b2a486f","timestamp":"2025-06-11 22:16:03","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/af216fde-222f-472d-9e03-064f7b2a486f","timestamp":"2025-06-11 22:16:19","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/af216fde-222f-472d-9e03-064f7b2a486f","timestamp":"2025-06-11 22:16:30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerAdmin/","timestamp":"2025-06-11 22:19:53","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerAdmin/","timestamp":"2025-06-11 22:20:15","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/a60bccbd-1128-4bed-af73-22dbd3817313","timestamp":"2025-06-11 22:20:42","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/a60bccbd-1128-4bed-af73-22dbd3817313","timestamp":"2025-06-11 22:20:45","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:26:10","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:26:25","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/0ff0e07e-6165-4c02-b704-10000e95f3bf","timestamp":"2025-06-11 22:26:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/0ff0e07e-6165-4c02-b704-10000e95f3bf","timestamp":"2025-06-11 22:26:52","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/0ff0e07e-6165-4c02-b704-10000e95f3bf","timestamp":"2025-06-11 22:26:53","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:28:07","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/activate/65ffe5be-5bc4-469d-8c59-597f4ff36034","timestamp":"2025-06-11 22:28:30","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/activate/513d89e6-5d62-47ee-b979-c56a08c25222","timestamp":"2025-06-11 22:29:06","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:31:05","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:31:12","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerOwner/","timestamp":"2025-06-11 22:31:50","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:32:38","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:32:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:33:49","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:33:50","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:33:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:33:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/owner/activate/eb7e9ca6-5a04-4864-a184-20d0a20e962e","timestamp":"2025-06-11 22:33:51","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"POST /api/auth/registerClient/","timestamp":"2025-06-11 22:37:50","userAgent":"PostmanRuntime/7.44.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:16","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:18","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:19","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:19","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:20","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:20","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:20","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:20","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/3eef1f20-9c62-4ea4-9e95-9aa0b72104e9","timestamp":"2025-06-11 22:38:21","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/c761f3b5-5ee0-4b37-b233-c734fe657137","timestamp":"2025-06-11 22:38:27","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /api/auth/admin/activate/a60bccbd-1128-4bed-af73-22dbd3817313","timestamp":"2025-06-11 22:38:38","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
-{"ip":"::1","level":"info","message":"GET /favicon.ico","timestamp":"2025-06-11 22:38:38","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:39:33","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:39:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:40:15","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:40:43","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:40:46","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:41:52","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:41:55","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:42:01","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin","timestamp":"2025-06-12 14:42:28","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/status","timestamp":"2025-06-12 14:42:38","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:43:15","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:43:29","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:43:34","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:44:03","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:44:09","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 14:44:14","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/6","timestamp":"2025-06-12 14:47:25","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginAdmin/","timestamp":"2025-06-12 14:47:34","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/","timestamp":"2025-06-12 14:47:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin","timestamp":"2025-06-12 14:47:56","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginAdmin/","timestamp":"2025-06-12 14:48:25","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/6","timestamp":"2025-06-12 14:48:43","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/4","timestamp":"2025-06-12 14:49:06","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 15:00:34","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 15:01:49","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 15:05:29","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 15:08:56","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 15:09:04","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/clients/","timestamp":"2025-06-12 15:09:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/clients/","timestamp":"2025-06-12 15:09:50","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 15:10:10","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 15:10:22","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 15:11:51","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:12:44","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:13:19","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:13:42","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:14:04","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:16:03","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:16:35","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:17:12","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:18:05","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:18:14","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/service","timestamp":"2025-06-12 15:18:39","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:19:10","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/cancel","timestamp":"2025-06-12 15:19:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:19:32","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 15:19:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 15:20:19","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 15:20:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/orders","timestamp":"2025-06-12 15:23:39","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:24:38","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/service","timestamp":"2025-06-12 15:25:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:25:55","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:26:09","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:27:50","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:28:02","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:28:15","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 15:28:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:33:04","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:34:11","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:34:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/orders","timestamp":"2025-06-12 15:35:25","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/payments","timestamp":"2025-06-12 15:35:38","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/clients/","timestamp":"2025-06-12 15:36:03","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/payments","timestamp":"2025-06-12 15:36:19","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:36:34","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/payments","timestamp":"2025-06-12 15:37:16","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:37:23","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 15:38:05","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:38:15","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/payments","timestamp":"2025-06-12 15:38:52","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:39:01","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 15:39:23","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/clients/2","timestamp":"2025-06-12 15:41:35","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/auth/refreshClient","timestamp":"2025-06-12 15:42:06","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/service/2","timestamp":"2025-06-12 15:48:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/service/2","timestamp":"2025-06-12 15:49:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/service/2","timestamp":"2025-06-12 15:50:47","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginAdmin/","timestamp":"2025-06-12 15:51:30","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:51:51","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:51:55","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:52:00","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:52:49","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:53:48","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/assignments/2","timestamp":"2025-06-12 15:53:58","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/","timestamp":"2025-06-12 16:02:51","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/","timestamp":"2025-06-12 16:03:16","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /HE5KNQOtSTvEeiNl82f13Ub9t3GYthbpE6hsfup7w3BS","timestamp":"2025-06-12 16:04:23","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/","timestamp":"2025-06-12 16:04:34","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/1","timestamp":"2025-06-12 16:06:22","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:06:41","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:07:05","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:07:07","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:07:22","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:07:25","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/owners/","timestamp":"2025-06-12 16:07:38","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginOwner/","timestamp":"2025-06-12 16:07:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/1","timestamp":"2025-06-12 16:07:58","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/1","timestamp":"2025-06-12 16:08:08","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/4","timestamp":"2025-06-12 16:08:15","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/4","timestamp":"2025-06-12 16:08:23","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/4","timestamp":"2025-06-12 16:08:35","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/owners/4","timestamp":"2025-06-12 16:08:43","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin","timestamp":"2025-06-12 16:10:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/admin","timestamp":"2025-06-12 16:10:25","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginAdmin/","timestamp":"2025-06-12 16:10:51","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/4","timestamp":"2025-06-12 16:11:31","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/5","timestamp":"2025-06-12 16:11:37","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/admin/","timestamp":"2025-06-12 16:11:54","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"PATCH /api/admin/5","timestamp":"2025-06-12 16:13:31","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/registerClient","timestamp":"2025-06-12 16:14:03","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/registerClient","timestamp":"2025-06-12 16:15:27","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/registerClient","timestamp":"2025-06-12 16:15:32","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 16:16:08","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/auth/loginClient/","timestamp":"2025-06-12 16:18:55","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 16:19:28","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/orders","timestamp":"2025-06-12 16:19:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/fst","timestamp":"2025-06-12 16:25:16","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/s","timestamp":"2025-06-12 16:26:16","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 16:27:08","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 16:29:08","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 16:29:59","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/service","timestamp":"2025-06-12 16:30:10","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/service","timestamp":"2025-06-12 16:30:26","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/service","timestamp":"2025-06-12 16:30:45","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/f","timestamp":"2025-06-12 16:30:56","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 16:31:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/payments","timestamp":"2025-06-12 16:31:43","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 16:31:59","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 16:32:02","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/ft","timestamp":"2025-06-12 16:33:08","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/status","timestamp":"2025-06-12 16:38:32","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/status","timestamp":"2025-06-12 16:39:05","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/status","timestamp":"2025-06-12 16:39:13","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"POST /api/orders","timestamp":"2025-06-12 16:39:36","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 16:41:57","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 16:42:07","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 16:42:18","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/aqqlisorov/t","timestamp":"2025-06-12 16:42:51","userAgent":"PostmanRuntime/7.44.0"}
+{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/b7334054-d443-42eb-ae56-ea54dec4fcba","timestamp":"2025-06-12 17:11:33","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
+{"ip":"::1","level":"info","message":"GET /favicon.ico","timestamp":"2025-06-12 17:11:33","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}
+{"ip":"::1","level":"info","message":"GET /api/auth/clients/activate/2a98ffdc-40e1-4ed0-a9c1-44c7e6ad95b1","timestamp":"2025-06-12 17:11:38","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0"}

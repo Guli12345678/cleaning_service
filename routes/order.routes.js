@@ -5,10 +5,11 @@ const {
   removeById,
   findOne,
 } = require("../controllers/orders.controller");
+const clientJwtGuard = require("../middleware/guards/client-jwt.guard");
 
 const router = require("express").Router();
 
-router.post("/", add);
+router.post("/", clientJwtGuard, add);
 router.patch("/:id", updateById);
 router.get("/", findAll);
 router.get("/:id", findOne);
